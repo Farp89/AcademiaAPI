@@ -1,0 +1,24 @@
+@AcademiaAPI_HostAddress = http://localhost:5085
+
+GET {{AcademiaAPI_HostAddress}}/api/academia
+Accept: application/json
+
+###
+
+GET {{AcademiaAPI_HostAddress}}/api/aluno
+Accept: application/json
+
+###
+
+GET {{AcademiaAPI_HostAddress}}/api/instrutor
+Accept: application/json
+
+###
+
+GET {{AcademiaAPI_HostAddress}}/api/treino
+Accept: application/json
+
+###
+
+GET {{AcademiaAPI_HostAddress}}/openapi/v1.json
+Accept: application/json
